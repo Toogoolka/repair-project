@@ -7,6 +7,23 @@ body * {
     box-sizing: border-box;
 }
 
+/*main input styles*/
+.input{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.input::placeholder{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #363636;
+}
+
 /*main styles of buttons*/
 .button{
     background: #E3B873;
@@ -58,8 +75,6 @@ body * {
 
     color: #181818;
 }
-
-
 
 .header{
     background: #131313;
@@ -171,7 +186,7 @@ body * {
     line-height: 15px;
     border: 2px solid #E3B873;
 }
-.submit-btn{
+.submit-application-btn{
     font-size: 11px;
     line-height: 15px;
 
@@ -193,7 +208,6 @@ body * {
 .gallery-content{
     padding-top: 107px;
 }
-
 
 .text-content{
 
@@ -298,7 +312,6 @@ body * {
     color: #E3B873;
 }
 
-
 .arrows{
     cursor: pointer;
 }
@@ -320,7 +333,6 @@ body * {
     margin-left: 17px;
     margin-right: 17px;
 }
-
 
 .online-control{
     background-color: #FFFFFF;
@@ -374,4 +386,123 @@ body * {
 
     width: 681px;
     color: #363636;
+    margin-bottom: 91px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 230px);
+    max-width: 769px;
+    margin-bottom: 39px;
+}
+.input-content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 58px;
+}
+.input-lbl{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.submit-btn-call{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*create custom checkbox*/
+.input-content-checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkbox-lbl {
+    cursor: pointer;
+}
+.checkbox-input{
+    display: none;
+}
+.null-span{
+    display: inline-flex;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+    border-radius: 1px;
+}
+.null-span::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .15s;
+}
+.checkbox-input:checked + .null-span::before{
+    opacity: 1;
+}
+.text-agreement{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 8px;
+
+    color: #181818;
+}
+
+
+/*section types of repair*/
+.types-subtitle{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 75px;
+
+    color: #181818;
+}
+
+.section-logo-types-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instruments-pic{
+    margin-right: 13px;
+    margin-left: 13px;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,422px);
+    grid-template-rows: auto;
+    padding-top: 31px;
+    justify-content: center;
+}
+.card-content{
+
+}
+.sticker-subtitle{
+    display: inline;
+}
+
+.options-list{
+
+}
+.options-list-item{
+
 }

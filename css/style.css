@@ -248,6 +248,7 @@ body * {
 
     color: #FFFFFF;
     max-width: 160px;
+    margin: 0;
 
     padding-top: 9px;
 }
@@ -255,12 +256,12 @@ body * {
 .specification{
     display: grid;
     grid-template-columns: repeat(auto-fit, 220px);
-    margin-bottom: 85px;
+    padding-bottom: 85px;
 
 }
 .specification-content{
+    margin-top: 0;
     margin-right: 29px;
-    margin-bottom: 34px;
 }
 
 .gallery-list{
@@ -273,7 +274,6 @@ body * {
 .gallery-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 92px;
 }
 .gallery-list-item{

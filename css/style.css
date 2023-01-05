@@ -76,6 +76,8 @@ body * {
     color: #181818;
 }
 
+
+/*header menu*/
 .header{
     background: #131313;
     display: flex;
@@ -119,6 +121,8 @@ body * {
     color: #E3B873;
 }
 
+
+/*section main*/
 .phone{
     font-family: 'Nunito Sans', Arial, sans-serif;
     font-weight: 400;
@@ -177,7 +181,7 @@ body * {
     margin-bottom: 40px;
 }
 
-/*buttons of request form*/
+            /*buttons of request form*/
 .calculate-btn{
     margin-left: 134px;
     margin-right: 20px;
@@ -197,7 +201,7 @@ body * {
     border-radius: 2px;
 }
 
-
+/*section projects*/
 .projects{
     background: #131313;
 
@@ -334,6 +338,8 @@ body * {
     margin-right: 17px;
 }
 
+
+/*section online control*/
 .online-control{
     background-color: #FFFFFF;
     height: 707px;
@@ -461,8 +467,10 @@ body * {
     color: #181818;
 }
 
-
 /*section types of repair*/
+.types-of-repaire{
+    padding-bottom: 53px;
+}
 .types-subtitle{
     font-family: 'Yeseva One';
     font-style: normal;
@@ -495,8 +503,6 @@ body * {
     justify-content: center;
 }
 
-.card-content{
-}
 .card-image{
     background-image: url("../img/redecorating-img.jpg");
     background-size: cover;
@@ -557,4 +563,213 @@ body * {
     color: #FFFFFF;
 
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+
+
+/*section benefits-application*/
+.benefits-application-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("/img/background-img02.jpg");
+    background-repeat: no-repeat;
+    padding-top: 59px;
+    padding-bottom: 240px;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 509px;
+    margin-top: 70px;
+    margin-left: 110px;
+}
+.benefits-items{
+    display: flex;
+    align-items: center;
+}
+.benefits-number{
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 50px;
+
+    padding: 10px 11px;
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.benefits-text{
+    display: block;
+    width: 330px;
+    padding-left: 18px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.application-field{
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+    padding: 28px 49px;
+    margin-top: 59px;
+    margin-bottom: 38px;
+}
+
+.field-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 39px;
+    outline: 0;
+    border: 0;
+}
+.field-title{
+    display: block;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    width: 240px;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+.field-container{
+    width: 408px;
+}
+
+.input-lbl-field{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-container{
+    display: flex;
+    justify-content: right;
+}
+.submit-btn-field{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding: 18px 44px;
+
+    color: #FFFFFF;
+}
+
+.input-content-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    background: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 48px;
+    width: border-box;
+
+    color: #FFFFFF;
+
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.input-field::placeholder{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+/*customize checkbox #2*/
+.input-content-checkbox-field{
+    margin-bottom: 28px;
+}
+.checkbox-lbl-field {
+    cursor: pointer;
+}
+.checkbox-input-field{
+    display: none;
+}
+.null-span-field{
+    display: inline-flex;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+    border-radius: 1px;
+}
+.null-span-field::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .15s;
+}
+.checkbox-input-field:checked + .null-span-field::before{
+    opacity: 1;
+}
+#field-checkbox{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    width: 259px;
+    padding-left: 8px;
+}
+.application-notice{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.notice{
+    display: block;
+    width: 344px;
+    padding-left: 18px;
+    padding-right: 90px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #E3B873;
+
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }

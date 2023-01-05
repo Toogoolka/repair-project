@@ -488,21 +488,73 @@ body * {
 
 .cards-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,422px);
+    grid-template-columns: repeat(auto-fit,392px);
     grid-template-rows: auto;
+    grid-column-gap: 30px;
     padding-top: 31px;
     justify-content: center;
 }
-.card-content{
 
+.card-content{
+}
+.card-image{
+    background-image: url("../img/redecorating-img.jpg");
+    background-size: cover;
+    max-width: 392px;
+
+}
+.sticker{
+    position: relative;
+    width: 330px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    padding: 25px 34px;
+
+    margin-top: -171px;
+    margin-left: 31px;
 }
 .sticker-subtitle{
     display: inline;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #363636;
+
+    margin-bottom: 13px;
 }
 
 .options-list{
-
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
 }
 .options-list-item{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
 
+    color: #959595;
+}
+.repair-btn{
+    position: relative;
+    margin-top: -26px;
+    margin-left: 31px;
+
+    padding: 17px 21px;
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
 }

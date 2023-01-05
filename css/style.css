@@ -752,12 +752,12 @@ body * {
     width: 259px;
     padding-left: 8px;
 }
+
 .application-notice{
     display: flex;
     align-items: center;
     margin-left: 30px;
 }
-
 .notice{
     display: block;
     width: 344px;
@@ -772,4 +772,84 @@ body * {
     color: #E3B873;
 
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+/*section fantasies*/
+.fantasies{
+    background-image: url("/img/background-img03.png");
+    background-size: cover;
+}
+.fantasies-overlay{
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+.container-fantasies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-fantasies{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    margin: 0;
+    margin-right: 77px;
+}
+.fantasies-title{
+    width: 330px;
+    margin-bottom: 47px;
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+.style-fantasies {
+    display: block;
+    justify-content: space-around;
+    width: fit-content;
+
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    border: 1px solid rgba(0, 0, 0, .0%);
+    outline: 0;
+    padding: 0;
+    margin-bottom: 23px;
+    transition: .15s;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+.style-fantasies:hover{
+    border-bottom: 1px solid #E3B873;
+    color: #E3B873;
+}
+.fantasies-images{
+    display: flex;
+    justify-content: space-around;
+
+}
+.images-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 43px;
+}
+#clock{
+    margin-top: -42px;
+    margin-bottom: 39px;
+}
+#sofa{
+    margin-top: -112px;
+    margin-bottom: 37px;
+}
+#screen{
+    position: relative;
+    margin-bottom: -41px;
 }

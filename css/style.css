@@ -379,6 +379,9 @@ body * {
 
     background-color: rgba(0, 0, 0, .8);
 }
+.btn-play{
+    cursor: pointer;
+}
 .line-shape-under_video{
     margin-bottom: 35px;
 }

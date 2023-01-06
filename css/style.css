@@ -579,6 +579,7 @@ body * {
 .benefits-application{
     background-image: url("../img/background-img02.jpg");
     background-repeat: no-repeat;
+    background-position-y: 50px;
 }
 .benefits-application-container{
     display: flex;

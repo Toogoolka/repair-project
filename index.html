@@ -15,7 +15,9 @@
 <body>
     <header class="header">
         <div class="container header-content">
-            <div class="logo">IC "Repair Design Project"</div>
+            <div class="logo">
+                <a href="index.html" class="logo-link" title="Главная страница">IC "Repair Design Project"</a>
+            </div>
             <nav class="header-navigation">
                 <ul class="header-navigation-ul">
                     <li class="header-navigation-item"><a class="header-link" href="#">HOME</a></li>
@@ -382,13 +384,15 @@ Konstantinovna</span>
                     <div class="quiz">
                         <h2 class="subtitle quiz-subtitle">have any questions?</h2>
                         <div class="quiz-content">
-                            <div class="quiz-item">
-                                <label for="name-quiz" class="name-quiz-lbl">Name</label>
-                                <input type="text" class="quiz-input" id="name-quiz" placeholder="What is your name:">
-                            </div>
-                            <div class="quiz-item">
-                                <label for="phone-quiz" class="name-quiz-lbl">Phone</label>
-                                <input type="tel" class="quiz-input" id="phone-quiz" placeholder="Your phone number:">
+                            <div class="row-quiz-container">
+                                <div class="quiz-item name-margin-quiz">
+                                    <label for="name-quiz" class="name-quiz-lbl">Name</label>
+                                    <input type="text" class="quiz-input" id="name-quiz" placeholder="What is your name:">
+                                </div>
+                                <div class="quiz-item">
+                                    <label for="phone-quiz" class="name-quiz-lbl">Phone</label>
+                                    <input type="tel" class="quiz-input" id="phone-quiz" placeholder="Your phone number:">
+                                </div>
                             </div>
                             <div class="quiz-item">
                                 <label for="question-quiz" class="name-quiz-lbl">Question</label>
@@ -404,9 +408,35 @@ Konstantinovna</span>
                         </div>
                         <button class="button quiz-sbm-btn">Submit</button>
                     </div>
+                    <h1 class="title adress-title">Rostov-on-Don, Nansen St., 239 Shopping Center
+                        Decorum Tel +7 (928) 768 32 29</h1>
+                    <div class="soicial-icons">
+                        <img class="mail" src="img/mail-icon.svg" alt="mail icon">
+                        <img src="img/inst-icon.svg" alt="instagram icon" class="inst">
+                    </div>
+                    <img src="img/map.png" alt="adress on the map" class="map-image">
                 </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="logo">
+                <a href="index.html" class="logo-link" title="Главная страница">IC "Repair Design Project"</a>
+            </div>
+            <nav class="footer-navigation">
+                <ul class="footer-navigation-ul">
+                    <li class="footer-navigation-item"><a class="footer-link" href="#">HOME</a></li>
+                    <li class="footer-navigation-item"><a class="footer-link" href="#">PROJECTS</a></li>
+                    <li class="footer-navigation-item"><a class="footer-link" href="#">MEASUREMENT</a></li>
+                    <li class="footer-navigation-item"><a class="footer-link" href="#">TEAM</a></li>
+                    <li class="footer-navigation-item"><a class="footer-link" href="#">REVIEWS</a></li>
+                    <li class="footer-navigation-item"><a class="footer-link" href="#">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <a class="phone" href="tel:+79287683239" title="phone number for calling us">+7 (928) 768-32-39</a>
+            <button type="button" class="button request-btn">Request a call</button>
+        </div>
+    </footer>
 </body>
 </html>                         

@@ -1,0 +1,33 @@
+@media screen and (max-width: 1300px){
+    .logo-link{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        text-transform: uppercase;
+
+        color: #E3B873;
+    }
+    .phone{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: right;
+
+        color: #FFFFFF;
+
+    }
+    .header-navigation{
+        visibility: hidden;
+    }
+    .header-content{
+        flex-wrap: nowrap;
+        height: 57px;
+    }
+    .request-btn{
+        visibility: hidden;
+    }
+}

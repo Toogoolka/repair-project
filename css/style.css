@@ -570,11 +570,14 @@ body * {
 
 
 /*section benefits-application*/
-.benefits-application-container{
-    display: flex;
-    justify-content: space-around;
+.benefits-application{
     background-image: url("/img/background-img02.jpg");
     background-repeat: no-repeat;
+}
+.benefits-application-container{
+    display: flex;
+    justify-content: space-between;
+
     padding-top: 59px;
     padding-bottom: 240px;
 }

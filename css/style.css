@@ -24,6 +24,18 @@ body * {
     color: #363636;
 }
 
+/*main styles for mini picture of subtitle section*/
+.mini-logo-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+.pic{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
 /*main styles of buttons*/
 .button{
     background: #E3B873;
@@ -98,8 +110,6 @@ body * {
     text-transform: uppercase;
     margin-right: 47px;
     color: #E3B873;
-}
-.logo:hover{
     cursor: pointer;
 }
 
@@ -354,14 +364,6 @@ body * {
     margin-bottom: 13px;
     color: #FFFFFF;
 }
-.oc-camera{
-    display: flex;
-    margin-bottom: 31px;
-}
-.camera-img{
-    margin-left: 9px;
-    margin-right: 9px;
-}
 
 .video{
     background-image: url("../img/repair-process.png");
@@ -492,7 +494,7 @@ body * {
     align-items: center;
     justify-content: center;
 }
-.instruments-pic{
+.instruments{
     margin-right: 13px;
     margin-left: 13px;
 }
@@ -505,13 +507,13 @@ body * {
     padding-top: 31px;
     justify-content: center;
 }
-
 .card-image{
     background-image: url("../img/redecorating-img.jpg");
     background-size: cover;
     max-width: 392px;
 
 }
+
 .sticker{
     position: relative;
     width: 330px;
@@ -598,7 +600,7 @@ body * {
     background: #E3B873;
     border: 8px solid #FFFFFF;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
-    border-radius: 50px;
+    border-radius: 50%;
 
     padding: 10px 11px;
 
@@ -858,4 +860,218 @@ body * {
 #screen{
     position: relative;
     margin-bottom: -41px;
+}
+
+
+/*section our clients*/
+.our-clients{
+    background-image: url("../img/city.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 355px;
+}
+.our-clients-container{
+    padding-top: 110px;
+}
+
+.subtitle-clients{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.customers{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #363636;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.clients{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 376px);
+    grid-template-rows: auto;
+    grid-gap: 54px;
+    justify-content: center;
+}
+.card-client-sticker{
+    padding-left: 20px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+.client{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+
+}
+.photo-client{
+    border-radius: 50%;
+    margin-right: 23px;
+}
+.clients-name{
+    width: 178px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: none;
+
+    color: #181818;
+}
+.comment{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 67px;
+
+    color: #959595;
+}
+.parameter{
+    position: relative;
+    margin-top: -20px;
+    display: flex;
+    max-width: 294px;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+.parameter-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 11px 17px;
+}
+.parameter-text{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-left: 14px;
+}
+.left{
+    border-right: 0.75px solid #FFFFFF;
+}
+
+/*section with map*/
+
+
+
+
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818;
+
+    width: 883px;
+}
+.quiz-subtitle{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+.quiz-item{
+    display: flex;
+    flex-direction: column;
+}
+.name-quiz-lbl{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+.quiz-input{
+    background-color: #181818;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.quiz-input::placeholder{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+
+/*customize checkbox #3*/
+.quiz-checkbox-content{
+    margin-bottom: 50px;
+}
+.lbl-quiz {
+    cursor: pointer;
+}
+.quiz-checkbox{
+    display: none;
+}
+.null-span-quiz{
+    display: inline-flex;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+    border-radius: 1px;
+}
+.null-span-quiz::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .15s;
+}
+.quiz-checkbox:checked + .null-span-quiz::before{
+    opacity: 1;
+}
+#text-span-quiz{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+}
+.quiz-sbm-btn{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding: 20px 54px;
 }

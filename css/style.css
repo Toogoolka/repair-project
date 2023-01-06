@@ -577,7 +577,7 @@ body * {
 
 /*section benefits-application*/
 .benefits-application{
-    background-image: url("/img/background-img02.jpg");
+    background-image: url("../img/background-img02.jpg");
     background-repeat: no-repeat;
 }
 .benefits-application-container{

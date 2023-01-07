@@ -6,6 +6,12 @@
     .phone{
         margin-left: 0;
     }
+    .gallery-content{
+        right: 50px;
+    }
+    .text-content{
+        max-width: 300px;
+    }
     .gallery-container{
         padding: 0px 50px;
     }
@@ -20,19 +26,17 @@
     }
     .specification{
         padding-bottom: 36px;
+        grid-template-columns: repeat(auto-fit, 150px);
     }
     .specification-content{
         margin-bottom: 20px;
     }
-
     .benefits-application-container{
         justify-content: space-around;
     }
-
     .text-fantasies{
         margin-right: 0;
     }
-
     .clients{
         grid-gap: 35px;
     }
@@ -82,7 +86,7 @@
         display: none;
     }
     .specification{
-        grid-template-columns: repeat(auto-fit, 165px);
+        grid-template-columns: repeat(auto-fit, 150px);
     }
     .text-content-subtitle{
         font-size: 14px;
@@ -184,7 +188,11 @@
         margin-top: -150px;
     }
 }
-
+@media screen and (max-width: 968px){
+    .map-image{
+        width: 500px;
+    }
+}
 @media screen and (max-width: 768px){
     .request-btn{
         display: none;

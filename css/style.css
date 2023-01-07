@@ -222,7 +222,8 @@ body * {
 }
 
 .gallery-content{
-    padding-top: 107px;
+    position: absolute;
+    right: 134px;
 }
 
 .text-content{
@@ -234,6 +235,9 @@ body * {
     margin-right: 50px;
 }
 
+.1, .2{
+    margin-right: 50px;
+}
 .text-content-title{
     font-family: 'Yeseva One';
     font-style: normal;

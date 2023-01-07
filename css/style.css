@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Nunito Sans', Arial, serif;
+    font-family: 'Nunito Sans',sans-serif;
 }
 
 body * {
@@ -92,8 +92,6 @@ body * {
 /*header menu*/
 .header, .footer{
     background: #131313;
-    display: flex;
-    justify-content: center;
 }
 .header-content, .footer-content{
     height: 83px;
@@ -329,7 +327,9 @@ body * {
     cursor: pointer;
     color: #E3B873;
 }
-
+.circle-arrows{
+    display: none;
+}
 .arrows{
     cursor: pointer;
 }
@@ -404,7 +404,8 @@ body * {
     margin-bottom: 91px;
 }
 
-.form{
+
+.form-fix-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, 230px);
     max-width: 769px;
@@ -507,7 +508,7 @@ body * {
     display: grid;
     grid-template-columns: repeat(auto-fit,392px);
     grid-template-rows: auto;
-    grid-column-gap: 30px;
+    grid-gap: 30px;
     padding-top: 31px;
     justify-content: center;
 }
@@ -799,6 +800,12 @@ body * {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.adapative-img{
+    display: none;
+}
+.fantasies-arrows{
+    display: none;
 }
 .text-fantasies{
     display: flex;

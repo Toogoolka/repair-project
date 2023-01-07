@@ -1,33 +1,191 @@
-@media screen and (max-width: 1300px){
-    .logo-link{
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 11px;
-        line-height: 15px;
-        text-transform: uppercase;
-
-        color: #E3B873;
+@media screen and (max-width: 1268px){
+    .header, .footer{
+        padding: 0px 30px;
     }
+
     .phone{
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 11px;
-        line-height: 15px;
-        text-align: right;
+        margin-left: 0;
+    }
+    .gallery-container{
+        padding: 0px 50px;
+    }
+    .gallery-list-item{
+        margin-right: 35px;
+    }
+    .text-content-title{
+        margin-bottom: 20px;
+    }
+    .text-content-subtitle{
+        margin: 0;
+    }
+    .specification{
+        padding-bottom: 36px;
+    }
+    .specification-content{
+        margin-bottom: 20px;
+    }
 
+    .benefits-application-container{
+        justify-content: space-around;
+    }
+
+    .text-fantasies{
+        margin-right: 0;
+    }
+
+    .clients{
+        grid-gap: 35px;
+    }
+}
+
+@media screen and (max-width: 1206px){
+    .header-navigation, .header-navigation-ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .projects{
+        padding-bottom: 30px;
+    }
+    .oc-container{
+        background-color: #131313;
+        padding-bottom: 70px;
+    }
+    .oc-subtitle{
+        margin-top: -30px;
+    }
+    .img-admiral-block{
+        display: flex;
+        justify-content: center;
+        width: 540px;
+        text-align: center;
+    }
+    .left-circle, .right-circle{
+        width: 50px;
+    }
+    .image-admiral{
+        width: 500px;
+    }
+    .arrows-dots{
+        display: none;
+    }
+    .circle-arrows{
+        width: 540px;
+
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-top: -200px;
+    }
+    .gallery-list-item{
+        display: none;
+    }
+    .specification{
+        grid-template-columns: repeat(auto-fit, 165px);
+    }
+    .text-content-subtitle{
+        font-size: 14px;
+    }
+    .sub-description{
+        font-size: 12px;
+    }
+    .oc-description{
         color: #FFFFFF;
+        padding-bottom: 35px;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+    .form-fix-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .types-subtitle{
+        margin-top: 700px;
+    }
+    .input-content{
+        margin-right: 0;
+    }
+
+    .name-input, .phone-input{
+        background-color: #131313;
+        border-bottom: 1px solid white;
+
+        margin-bottom: 63px;
+    }
+    .name-input::placeholder, .phone-input::placeholder{
+        color: #FFFFFF;
+    }
+    .text-agreement{
+        color: #FFFFFF;
+    }
+    .input-lbl{
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .cards-container{
+        grid-gap: 50px;
+    }
+
+    .card-image{
+        width: 340px;
+    }
+    .sticker{
+        width: 270px;
+        margin-left: 0;
+        margin-top: -105px;
+    }
+    .repair-btn{
+        width: 190px;
+        font-size: 15px;
+        padding: 11px 14px;
+    }
+    .benefits{
+        margin-left: 0;
+    }
+    .fantasies{
+        background: none;
+    }
+    .fantasies-items, .fantasies-images{
+        display: none;
+    }
+    .text-fantasies{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0;
+    }
+    .fantasies-title{
+        display: block;
+        margin: 0px 0px 35px;
+    }
+    .adapative-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin-top: -150px;
+    }
+    .adaptive-img-item{
+        width: 500px;
+    }
+    .fantasies-arrows{
 
     }
-    .header-navigation{
-        visibility: hidden;
+}
+
+@media screen and (max-width: 768px){
+    .text-on-overlay, .calculate-btn{
+        margin-left: 70px;
     }
-    .header-content{
-        flex-wrap: nowrap;
-        height: 57px;
+    .description{
+        font-size: 18px;
     }
-    .request-btn{
-        visibility: hidden;
-    }
+
 }

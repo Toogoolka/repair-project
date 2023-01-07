@@ -65,7 +65,7 @@
 
                         <div class="specification-content">
                             <h2 class="subtitle text-content-subtitle">apartment area:</h2>
-                            <p class="sub-description">81 m<sup>2</sup></p>
+                            <p class="sub-description">81 m2</p>
                         </div>
 
                         <div class="specification-content">
@@ -94,11 +94,19 @@
                             <li class="gallery-list-item">Rostov-on-Don Patriotic</li>
                         </ul>
                     </nav>
-                    <img src="img/admiral-img.png" alt="rostov-on-don-admiral">
+                    <div class="img-admiral-block">
+                        <img class="image-admiral" src="img/admiral-img.png" alt="rostov-on-don-admiral">
+                    </div>
+                    <div class="circle-arrows">
+                        <div class="left-circle">
+                            <img src="img/arrow-circle-left.svg" alt="left-arrow" width="100%">
+                        </div>
+                        <div class="right-circle">
+                            <img src="img/arrow-circle-right.svg" alt="right circle" width="100%">
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
         </section>
         <section class="online-control">
             <div class="container oc-container">
@@ -117,16 +125,18 @@
                 <p class="oc-description">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
                     Leave a request below and you will receive a link to the broadcast.</p>
                 <div class="form">
-                    <div class="input-content">
-                        <label class="input-lbl" for="name">Name</label>
-                        <input class="input name-input" type="text" id="name" placeholder="What is your name:">
+                    <div class="form-fix-container">
+                        <div class="input-content">
+                            <label class="input-lbl" for="name">Name</label>
+                            <input class="input name-input" type="text" id="name" placeholder="What is your name:">
+                        </div>
+                        <div class="input-content">
+                            <label class="input-lbl" for="phone">Phone</label>
+                            <input class="input phone-input" type="tel" id="phone" placeholder="Your phone number:">
+                        </div>
+                        <button class="button submit-btn-call">Submit</button>
                     </div>
-                    <div class="input-content">
-                        <label class="input-lbl" for="phone">Phone</label>
-                        <input class="input phone-input" type="tel" id="phone" placeholder="Your phone number:">
                     </div>
-                    <button class="button submit-btn-call">Submit</button>
-                </div>
                 <div class="input-content-checkbox">
                     <label class="checkbox-lbl" for="agree">
                         <input type="checkbox" class="checkbox-input" id="agree">
@@ -266,17 +276,30 @@ cost of materials</span>
                     <div class="text-fantasies">
                         <h1 class="title fantasies-title">We realize your
                             wildest fantasies</h1>
-                        <span class="style-fantasies">American classic</span>
-                        <span class="style-fantasies">Empire</span>
-                        <span class="style-fantasies">Classical</span>
-                        <span class="style-fantasies">Loft</span>
-                        <span class="style-fantasies">Minimalism</span>
-                        <span class="style-fantasies">Provence</span>
-                        <span class="style-fantasies">Romanticism</span>
-                        <span class="style-fantasies">Scandinavian style</span>
-                        <span class="style-fantasies">Mediterranean style</span>
-                        <span class="style-fantasies">High tech</span>
-                        <span class="style-fantasies">Eclecticism</span>
+                        <div class="adapative-img">
+                            <img class="adaptive-img-item" src="img/background-img03.png" alt="background img">
+                            <div class="circle-arrows fantasies-arrows">
+                                <div class="left-circle fantasies-arrows-left">
+                                    <img src="img/arrow-circle-left.svg" alt="left-arrow" width="100%">
+                                </div>
+                                <div class="right-circle fantasies-arrows-right">
+                                    <img src="img/arrow-circle-right.svg" alt="right circle" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fantasies-items">
+                            <span class="style-fantasies">American classic</span>
+                            <span class="style-fantasies">Empire</span>
+                            <span class="style-fantasies">Classical</span>
+                            <span class="style-fantasies">Loft</span>
+                            <span class="style-fantasies">Minimalism</span>
+                            <span class="style-fantasies">Provence</span>
+                            <span class="style-fantasies">Romanticism</span>
+                            <span class="style-fantasies">Scandinavian style</span>
+                            <span class="style-fantasies">Mediterranean style</span>
+                            <span class="style-fantasies">High tech</span>
+                            <span class="style-fantasies">Eclecticism</span>
+                        </div>
                     </div>
                     <div class="fantasies-images">
                         <div class="images-column">

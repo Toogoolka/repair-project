@@ -39,7 +39,7 @@
 }
 
 @media screen and (max-width: 1206px){
-    .header-navigation, .header-navigation-ul {
+    .header-navigation, .header-navigation-ul, .footer-navigation, .footer-navigation-ul {
         display: none;
     }
 }
@@ -186,11 +186,19 @@
 }
 
 @media screen and (max-width: 768px){
-    .text-on-overlay, .calculate-btn{
-        margin-left: 70px;
+    .request-btn{
+        display: none;
     }
-    .description{
-        font-size: 18px;
+    .phone{
+        margin: 0;
     }
+    .gallery-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-admiral-block{
 
+    }
 }

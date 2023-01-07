@@ -163,9 +163,14 @@
     }
     .fantasies-title{
         display: block;
-        margin: 0px 0px 35px;
+        margin: 0;
     }
-    .adapative-img{
+    .adaptive-with-arrows{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .adaptive-img{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -176,7 +181,7 @@
         width: 500px;
     }
     .fantasies-arrows{
-
+        margin-top: -150px;
     }
 }
 

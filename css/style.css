@@ -801,7 +801,10 @@ body * {
     justify-content: space-around;
     align-items: center;
 }
-.adapative-img{
+.adaptive-img{
+    display: none;
+}
+.adaptive-with-arrows{
     display: none;
 }
 .fantasies-arrows{

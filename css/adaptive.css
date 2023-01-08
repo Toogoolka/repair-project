@@ -189,6 +189,49 @@
     }
 }
 @media screen and (max-width: 968px){
+    .benefits-application{
+        display: none;
+    }
+    .fantasies-overlay{
+        background: none;
+    }
+    .text-fantasies{
+        flex-direction: column;
+    }
+    .quiz-map{
+        background: #181818;
+    }
+    .overlay-quiz-map{
+        background: none;
+    }
+    .adaptive-with-arrows{
+        position: relative;
+        margin-top: 50px;
+    }
+    .fantasies-title{
+        width: auto;
+        margin-bottom: 240px;
+    }
+    .adaptive-img{
+
+    }
+    .our-clients{
+        display: none;
+    }
+    .overlay-quiz-map{
+        display: block;
+    }
+
+    .quiz{
+        margin-top: 0;
+        width: 100%;
+    }
+    .row-quiz-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     .map-image{
         width: 500px;
     }

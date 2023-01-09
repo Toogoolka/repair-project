@@ -242,6 +242,9 @@
     .map-image{
         width: 500px;
     }
+    .repair-btn{
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width: 768px){
     .footer{

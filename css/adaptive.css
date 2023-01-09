@@ -244,6 +244,12 @@
     }
 }
 @media screen and (max-width: 768px){
+    .projects{
+        padding-bottom: 35px;
+    }
+    .back-overlay{
+        height: 708px;
+    }
     .request-btn{
         display: none;
     }
@@ -257,6 +263,41 @@
         justify-content: center;
     }
     .img-admiral-block{
+        width: 500px;
+    }
+    .circle-arrows{
+        width: 480px;
+    }
+    .gallery-content{
+        position: inherit;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-content{
+        max-width: 100%;
+        margin: 0;
+    }
+    .text-content-title{
+        text-align: center;
+        width: 100%;
+    }
+    .comment-work{
+        text-align: center;
+    }
+    .specification{
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 305px);
+        align-items: center;
+    }
 
+    .video, .video-overlay{
+        width: 500px;
+        height: 265px;
+    }
+    .btn-play{
+        width: 100px;
     }
 }

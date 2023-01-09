@@ -197,6 +197,7 @@
     }
     .text-fantasies{
         flex-direction: column;
+        margin-bottom: -30px;
     }
     .quiz-map{
         background: #181818;
@@ -210,7 +211,10 @@
     }
     .fantasies-title{
         width: auto;
-        margin-bottom: 240px;
+        margin-bottom: 130px;
+    }
+    .fantasies-arrows{
+        margin-top: -175px;
     }
     .adaptive-img{
 
@@ -230,6 +234,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    .quiz-subtitle{
+        margin-top: 200px;
     }
 
     .map-image{

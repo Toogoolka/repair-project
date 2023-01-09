@@ -244,6 +244,10 @@
     }
 }
 @media screen and (max-width: 768px){
+    .footer{
+        display: none;
+    }
+
     .projects{
         padding-bottom: 35px;
     }
@@ -292,6 +296,9 @@
         grid-template-columns: repeat(auto-fit, 305px);
         align-items: center;
     }
+    .specification-content{
+        margin-left: 105px;
+    }
 
     .video, .video-overlay{
         width: 500px;
@@ -300,4 +307,173 @@
     .btn-play{
         width: 100px;
     }
+    .types-subtitle{
+        margin-top: 505px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .title{
+        font-size: 22px;
+    }
+    .header, .header-content{
+        height: 57px;
+    }
+    .container{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .request-block, .back-overlay{
+        height: 560px;
+    }
+    .request-container{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .header-text, .gold-title{
+        font-size: 23px;
+    }
+    .text-on-overlay{
+        padding-top: 85px;
+        margin: 0;
+        width: 100%;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .calculate-btn, .submit-application-btn{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .calculate-btn{
+        margin-bottom: 26px;
+    }
+    .projects{
+        padding-bottom: 10px;
+    }
+    .text-content{
+        padding-top: 36px;
+    }
+    .text-content-title{
+        font-size: 22px;
+        margin-bottom: 22px;
+        padding-left: 43px;
+        padding-right: 43px;
+    }
+    .comment-work{
+        font-size: 11px;
+    }
+
+    .img-admiral-block, .image-admiral{
+        width: 339px;
+    }
+    .circle-arrows{
+        width: 320px;
+        margin-top: -140px;
+        margin-bottom: 36px;
+    }
+    .left-circle, .right-circle{
+        width: 35px;
+    }
+    .specification{
+        margin-top: 100px;
+        padding-bottom: 0;
+        grid-template-columns: repeat(auto-fit, 185px);
+    }
+    .specification-content{
+        margin-left: 0;
+    }
+
+    .2{
+        margin-bottom: 58px;
+    }
+
+    .online-control{
+        height: border-box;
+    }
+
+    .oc-subtitle{
+        margin-top: -75px;
+    }
+    .video, .video-overlay{
+        width: 339px;
+        height: 240px;
+    }
+    .btn-play{
+        width: 55px;
+    }
+    .oc-description{
+        font-size: 11px;
+        width: 100%;
+        margin-bottom: 61px;
+        padding-bottom: 0;
+    }
+    .form, .quiz-sbm-btn, .input-content-checkbox, .quiz-content, .quiz-checkbox-content, .adress-title{
+        width: 100%;
+    }
+    .form-fix-container{
+        margin-bottom: 30px;
+    }
+    .input-content-checkbox{
+        position: relative;
+        margin-top: -175px;
+        padding-top: 25px;
+    }
+    .submit-btn-call{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .types-subtitle{
+        margin-top: 275px;
+        font-size: 22px;
+    }
+    .cards-container{
+        grid-template-columns: repeat(auto-fit,339px);
+    }
+    .fantasies-title{
+        padding: 2px 60px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .adaptive-with-arrows, .adaptive-img-item{
+        width: 339px;
+    }
+    .adaptive-with-arrows{
+        margin-top: 150px;
+    }
+    .fantasies-arrows{
+        width: 320px;
+        margin-top: -120px;
+    }
+    .text-fantasies{
+        margin-bottom: -60px;
+    }
+    .quiz{
+        padding: 0;
+    }
+    .quiz-subtitle{
+        margin-top: 150px;
+    }
+
+    .name-margin-quiz{
+        margin-right: 0px;
+    }
+    .quiz-checkbox-content{
+        margin-top: -30px;
+    }
+    .adress-title{
+        font-size: 20px;
+        margin-top: 230px;
+    }
+    .map-image{
+        position: relative;
+        margin-top: -405px;
+        width: 340px;
+        margin-bottom: 160px;
+    }
+
 }

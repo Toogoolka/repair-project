@@ -225,7 +225,12 @@ body * {
     position: absolute;
     right: 134px;
 }
-
+.img-block {
+    background-image: url("/img/gallery/admiral-img.png");
+    background-size: cover;
+    width: 679px;
+    height: 482px;
+}
 .text-content{
 
     padding-top: 176px;
@@ -289,8 +294,9 @@ body * {
 
 .specification{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 220px);
+    grid-template-columns: repeat(auto-fit, 195px);
     padding-bottom: 85px;
+
 
 }
 .specification-content{
@@ -331,17 +337,39 @@ body * {
     cursor: pointer;
     color: #E3B873;
 }
+
+.gallery-list-item.active {
+    border-bottom: 2px solid #E3B873;
+
+    cursor: pointer;
+    color: #E3B873;
+}
 .circle-arrows{
     display: none;
 }
+.arrows-dots {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
 .arrows{
     cursor: pointer;
+}
+.arrows:active {
+    width: 38px;
 }
 .arrow-left{
   margin-right: 29px;
 }
 .arrow-right{
     margin-left: 29px;
+}
+.dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100px;
 }
 .dots-img{
     border-radius: 30px;
@@ -351,9 +379,8 @@ body * {
     background-color: #FFFFFF;
 
 }
-.dot-middle{
-    margin-left: 17px;
-    margin-right: 17px;
+.dots-img.active{
+    background-color: #FFFFFF;
 }
 
 

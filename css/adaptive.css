@@ -59,7 +59,7 @@
     .oc-subtitle{
         margin-top: -30px;
     }
-    .img-admiral-block{
+    .img-block{
         display: flex;
         justify-content: center;
         width: 540px;
@@ -269,7 +269,7 @@
         align-items: center;
         justify-content: center;
     }
-    .img-admiral-block{
+    .img-block{
         width: 500px;
     }
     .circle-arrows{
@@ -371,7 +371,7 @@
         font-size: 11px;
     }
 
-    .img-admiral-block, .image-admiral{
+    .img-block, .image-admiral{
         width: 339px;
     }
     .circle-arrows{

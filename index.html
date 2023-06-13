@@ -61,14 +61,12 @@
                     <div class="gallery-content">
                         <nav class="gallery-navigation">
                             <ul class="gallery-list">
-                                <li class="gallery-list-item">Rostov-on-Don, Admiral</li>
-                                <li class="gallery-list-item">Sochi Thieves</li>
-                                <li class="gallery-list-item">Rostov-on-Don Patriotic</li>
+                                <li class="gallery-list-item active" id="admiral">Rostov-on-Don, Admiral</li>
+                                <li class="gallery-list-item" id="sochi">Sochi Thieves</li>
+                                <li class="gallery-list-item" id="patriotic">Rostov-on-Don Patriotic</li>
                             </ul>
                         </nav>
-                        <div class="img-admiral-block">
-                            <img class="image-admiral" src="img/admiral-img.png" alt="rostov-on-don-admiral">
-                        </div>
+                        <div class="img-block"></div>
                         <div class="circle-arrows">
                             <div class="left-circle">
                                 <img src="img/arrow-circle-left.svg" alt="left-arrow" width="100%">
@@ -82,18 +80,18 @@
                         <div class="specification">
                             <div class="specification-content">
                                 <h2 class="subtitle text-content-subtitle">City:</h2>
-                                <p class="sub-description">Rostov-on-Don
+                                <p class="sub-description" id="city">Rostov-on-Don
                                     LCD admiral</p>
                             </div>
 
                             <div class="specification-content">
                                 <h2 class="subtitle text-content-subtitle">apartment area:</h2>
-                                <p class="sub-description">81 m2</p>
+                                <p class="sub-description" id="area">81 m2</p>
                             </div>
 
                             <div class="specification-content">
                                 <h2 class="subtitle text-content-subtitle">Repair time:</h2>
-                                <p class="sub-description">3.5 months</p>
+                                <p class="sub-description" id="time">3.5 months</p>
                             </div>
 
                             <div class="specification-content">
@@ -103,9 +101,12 @@
                         </div>
                         <div class="arrows-dots">
                             <img class="arrows arrow-left" src="img/left-arrow.svg" alt="left arrow">
-                            <img class="dots-img" src="img/dark-dot.svg" alt="dot navigation of gallery">
-                            <img class="dots-img dot-middle" src="img/dark-dot.svg" alt="dot navigation of gallery">
-                            <img class="dots-img" src="img/dark-dot.svg" alt="dot navigation of gallery">
+                            <div class="dots">
+                                <img class="dots-img active" src="img/dark-dot.svg" alt="dot navigation of gallery">
+                                <img class="dots-img" src="img/dark-dot.svg" alt="dot navigation of gallery">
+                                <img class="dots-img" src="img/dark-dot.svg" alt="dot navigation of gallery">
+                            </div>
+
                             <img class="arrows arrow-right" src="img/right-arrow.svg" alt="right arrow">
                         </div>
                     </div>
@@ -469,5 +470,6 @@ Konstantinovna</span>
             <button type="button" class="button request-btn">Request a call</button>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>                         
